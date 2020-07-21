@@ -1,0 +1,30 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+}
+
+#epytodologo {
+    position: relative;
+    left: 20px;
+    border: 10px double white;
+}
+
+div {
+    background: white;
+    position: relative;
+    top: 230px;
+    margin: auto;
+    border: 10px double #0769b2;
+    height: 254px;
+    width: 814px;
+}
+
+#footer {
+    position: absolute;
+    top: 898px;
+    left: 0px;
+    padding: 3px;
+    text-align: center;
+    background: rgb(51, 50, 50);
+    font-size: 15px;
+}

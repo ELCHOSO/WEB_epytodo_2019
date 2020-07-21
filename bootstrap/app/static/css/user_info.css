@@ -1,0 +1,41 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+}
+
+.topbar {
+    background-color: #0769b2;
+    overflow: hidden;
+
+}
+
+.topbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font: bold;
+}
+
+.topbar a:hover {
+    background-color: #2789d2;
+    color: white;
+}
+
+.topbar a.active {
+    color: #0769b2;
+    background-color: white;
+}
+
+#content {
+    border: 10px double #2789d2;
+    margin: auto;
+    background: white;
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+    height: 200px;
+    width: 300px;
+}

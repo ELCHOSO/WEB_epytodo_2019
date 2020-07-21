@@ -1,0 +1,29 @@
+<DOCTYPE html>
+<html lang ="en">
+<head>
+    <title> Add a Task </title>
+    <link rel="stylesheet" href= "../static/css/add_task.css"/>
+</head>
+<body>
+    <div class="topbar">
+        <a href="/">Home</a>
+        <a href="/user">Profile</a>
+        <a href="http://epitech.eu">Our School</a>
+        <a href="/">Log out</a>
+    </div>
+    <form action="http://www.google.com">
+        <div id="add_frame">
+            <label>Task :</label>
+            <input type="text" id="task" size="40">
+            <label>Description : </label>
+            <textarea type="description" cols="40" rows="5"></textarea>
+            <label>Begins at :</label>
+            <input type="datetime-local" id="beginning">
+            <script src="../static/js/add_task.js"></script>
+            <label>Ends at :</label>
+            <input type="datetime-local" id="ending">
+            <input type="submit" value="Add to the list" id="addbutton">
+        </div>
+    </form>
+</body>
+</html>

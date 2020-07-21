@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <title> Registration </title>
+    <link rel="stylesheet" href= "{{ url_for('static', filename='css/index.css') }}"/>
+</head>
+<body>
+    <script src="../static/js/register.js"></script>
+    <img src="../static/img/epytodo.png" id="epytodologo"/>
+    <div class="register">
+        <h2><U>REGISTRATION</U></h2>
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" required minlength="4" maxlength="15" size="10">
+        <label for="pass">Password :</label>
+        <input type="password" id="pass" name="password" required minlength="8">
+        <button id="buttonregister" onclick="is_register_ok()"><img src="../static/img/register.png"/></button>
+        <a href="/" id ="linklogin">Already signed in ?</a>
+    </div>
+    <div>
+        {{content}}
+    </div>
+</body>
+<footer id="footer">
+        <font color ="white">Epitech est une école d’informatique créée en 1999 qui forme des experts du secteur, 
+            la plupart en 5 ans après le Bac mais également dès 18 ans ou à travers des formations professionnelles plus courtes, 
+            ouvertes à tous les profils et adaptées à tous les parcours. Elle permet de transformer une passion pour l’informatique 
+            en une expertise qui débouche sur des emplois à fort potentiel comparable à celui de toutes les Grandes Écoles (100% des 
+            élèves du cursus post-bac sont embauchés à la fin de leurs études). Cette formation recherchée par les entreprises repose 
+            sur un modèle novateur qui met l’accent sur trois qualités de plus en plus exigées : l’adaptabilité, l’auto-progression et 
+            le sens du projet. Epitech délivre un titre d’Expert en Technologies de l’Information de niveau 1, enregistré par la 
+            Commission Nationale de la Certification Professionnelle (CNCP).</font>
+</footer>
+</html>
